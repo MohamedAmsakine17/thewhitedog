@@ -1,0 +1,1339 @@
+body {
+  margin: 0;
+  background-color: #050505;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #f8f6ff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.container {
+  padding: 0px 200px;
+}
+
+.outline-btn,
+.white-btn {
+  padding: 12.5px 20px;
+  border-radius: 20px;
+}
+
+.outline-btn {
+  border: 3px solid #f8f6ff;
+  color: #f8f6ff;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.white-btn {
+  color: #050505;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+h2.header-text,
+.about-title,
+.tuto-title,
+.features-title,
+.tokenmics-title,
+.socials-title,
+.why-title,
+.faq-title {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+/* Nav */
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 70px;
+  font-size: 22px;
+}
+
+.nav-link {
+  color: #f8f6ff;
+}
+
+/* Header */
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 250px;
+}
+
+.header-text {
+  margin: 0;
+}
+
+h2.header-text {
+  margin-bottom: 9px;
+}
+
+p.header-text,
+.header-btns {
+  font-size: 20px;
+}
+
+.header-logo,
+p.header-text {
+  margin-bottom: 32px;
+}
+
+.header-btns {
+  display: flex;
+}
+
+.header-btns .white-btn {
+  margin-right: 15px;
+}
+
+header .right-content img {
+  position: absolute;
+  left: 50%;
+  top: 55px;
+  pointer-events: none;
+}
+
+/* Exchange */
+
+.exchanges .container {
+  padding-top: 400px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.exchange-platform {
+  border: 2px solid #f8f6ff;
+  width: 225px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 0 20px;
+  transition: transform 0.3s ease;
+}
+
+.exchange-platform img {
+  width: 80%;
+}
+
+/* About */
+
+.about {
+  margin-top: 25px;
+  margin-bottom: 245px;
+}
+
+.about .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-about-content {
+  width: 613px;
+}
+
+.about-title {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.about-text {
+  font-size: 20px;
+}
+
+/* Comment */
+
+.comment {
+  margin-bottom: 368px;
+}
+
+.comment .container {
+  display: flex;
+  justify-content: center;
+}
+
+.comment-text {
+  padding: 32px;
+  max-width: 780px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  grid-gap: 24px;
+  position: relative;
+  border-radius: 24px;
+  border: 4px solid var(--f-8-f-7-ff, #f8f6ff);
+}
+
+.comment-text svg {
+  width: 64px;
+  position: absolute;
+}
+
+.content__text {
+  padding-left: 96px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.comment-text::after {
+  content: "";
+  max-width: 250px;
+  width: 100%;
+  height: 250px;
+  background: #30e9a1;
+  opacity: 0.2;
+  filter: blur(108.0999984741px);
+  border-radius: 250px;
+  position: absolute;
+  top: -125px;
+  left: -125px;
+}
+
+.comment-text img {
+  max-width: 296px;
+  width: 100%;
+  position: absolute;
+  right: -310px;
+  bottom: -250px;
+}
+
+/* Tuto */
+
+.tuto .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tuto-content {
+  max-width: 613px;
+}
+
+.tuto-text {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 40px 0;
+}
+
+/* Features */
+
+.features {
+  margin-bottom: 368px;
+  position: relative;
+}
+
+.features .container::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -0px;
+  width: 883.726px;
+  height: 512.011px;
+  border-radius: 883.726px;
+  opacity: 0.2;
+  background: linear-gradient(
+    99deg,
+    #7b3ec8 1.93%,
+    #3e54c8 47.51%,
+    #7b3ec8 96.04%
+  );
+  filter: blur(108.0999984741px);
+  z-index: -1;
+}
+
+.features .container::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -10px;
+  max-width: 400px;
+  max-height: 400px;
+  height: 100%;
+  width: 100%;
+  border-radius: 702.76px;
+  opacity: 0.2;
+  background: #2ebae6;
+  filter: blur(108.0999984741px);
+  z-index: -1;
+}
+
+.features-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features-title {
+  display: flex;
+  align-self: center;
+  margin-bottom: 36px;
+}
+
+.features-title svg {
+  margin-left: 35px;
+}
+
+.feature-card {
+  width: 25%;
+  padding: 32px;
+  border-radius: 24px;
+  border: 4px solid var(--f-8-f-7-ff, #f8f6ff);
+  background: var(
+    --Linear,
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    )
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 480px;
+}
+
+.feature-card svg {
+  width: 64px;
+}
+
+.feature-card-title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 7px 0 15px;
+}
+
+.feature-text {
+  font-size: 20px;
+  height: 215px;
+}
+
+/* Tokenmics */
+
+.tokenmics {
+  margin-bottom: 368px;
+}
+
+.tokenmics .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.tokenmics .container::after {
+  z-index: -1;
+  content: "";
+  top: -300px;
+  border-radius: 1312.954px;
+  opacity: 0.26;
+  background: var(
+    --Linear,
+    linear-gradient(99deg, #2ee6a6 1.93%, #3e54c8 47.51%, #7b3ec8 96.04%)
+  );
+  position: absolute;
+  filter: blur(108.0999984741px);
+  width: 283.716px;
+  height: 1312.954px;
+  transform: rotate(89.541deg);
+}
+
+.tokenmics-title {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.tokenmics-title img {
+  margin-left: 35px;
+}
+
+.tokenmics-element-top,
+.tokenmics-element {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tokenmics-element-top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-bottom: 24px;
+}
+
+.tokenmics-element {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+#symbol {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+#tax {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+#tax .tokenmics__content {
+  margin: auto;
+}
+
+#lp {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+#lp .tokenmics__content {
+  margin-left: auto;
+}
+
+.tokenmics__content,
+#token-address {
+  border: 4px solid var(--f-8-f-7-ff, #f8f6ff);
+  border-radius: 24px;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tokenmics__content {
+  width: 80%;
+}
+
+.tokenmics__content div,
+#token-address div {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+#token-address div {
+  display: flex;
+  align-items: center;
+}
+
+#token-address div svg {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* Socials */
+
+.socials {
+  margin-bottom: 366px;
+}
+
+.socials .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials-right-content {
+  width: 600px;
+}
+
+.socials-links {
+  margin-top: 25px;
+}
+
+.socials-link {
+  margin-right: 10px;
+}
+
+/* why */
+
+.why {
+  margin-bottom: 366px;
+}
+
+.why-content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.why-text {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.why-section {
+  width: 22%;
+}
+
+#why-section-1 {
+  margin-top: 130px;
+}
+#why-section-2 {
+  margin-top: 300px;
+}
+#why-section-3 {
+  margin-top: 70px;
+}
+
+/* faq */
+
+.faq {
+  margin-bottom: 271px;
+}
+
+.faq-title {
+  display: flex;
+  align-items: center;
+}
+
+.faq-title svg {
+  margin-left: 30px;
+}
+
+.faq-list {
+  margin-top: 55px;
+}
+
+.faq-element {
+  padding: 32px;
+  border-radius: 24px;
+  border: 4px solid var(--f-8-f-7-ff, #f8f6ff);
+  background: var(
+    --Linear,
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    )
+  );
+  margin-bottom: 40px;
+}
+
+.faq-header {
+  cursor: pointer;
+}
+
+.faq-content {
+  max-height: 0; /* Initially collapsed */
+  overflow: hidden; /* Hides content that exceeds max-height */
+  transition: max-height 0.3s ease-out; /* Smooth transition for max-height */
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.faq-header {
+  font-size: 36px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Footer */
+
+footer {
+  border-radius: 80px 80px 0px 0px;
+  border-top: 4px solid var(--f-8-f-7-ff, #f8f6ff);
+  background: var(
+    --Linear,
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    )
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container {
+  z-index: 2;
+  padding-top: 118px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+footer::after {
+  content: "";
+  position: absolute;
+  border-radius: 1744.768px;
+  opacity: 0.26;
+  background: var(
+    --Linear,
+    linear-gradient(99deg, #2ee6a6 1.93%, #3e54c8 47.51%, #7b3ec8 96.04%)
+  );
+  filter: blur(108.0999984741px);
+  max-width: 1744.768px;
+  max-height: 341.704px;
+  height: 100%;
+  width: 100%;
+}
+
+.footer-content {
+  margin-bottom: 31px;
+  max-width: 771px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 16px;
+}
+
+.footer-content img {
+  width: 217px;
+  margin-right: 70px;
+}
+
+.footer-links {
+  margin-bottom: 82px;
+}
+
+.footer-links img {
+  width: 64px;
+  margin-right: 20px;
+}
+
+.footer-other {
+  width: 100%;
+  padding: 32px 0;
+  border-top: 1px solid #3d4148;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  grid-gap: 64px;
+  color: var(--f-8-f-7-ff, #f8f6ff);
+  font-family: Grandstander;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+footer .picture {
+  width: 590px;
+  position: absolute;
+  bottom: 0;
+  right: 120px;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 1665px) {
+  .container {
+    padding: 0px 100px;
+  }
+
+  .nav-item {
+    margin-left: 50px;
+  }
+
+  .comment-text {
+    max-width: 580px;
+  }
+
+  .comment-text img {
+    max-width: 250px;
+    right: -270px;
+    bottom: -220px;
+  }
+
+  header .right-content img {
+    position: absolute;
+    left: 45%;
+    max-width: 700px;
+  }
+
+  .feature-card {
+    width: 26%;
+    height: 450px;
+  }
+
+  .feature-text {
+    font-size: 18px;
+  }
+
+  .features {
+    margin-bottom: 268px;
+  }
+
+  .why {
+    margin-bottom: 266px;
+  }
+
+  footer .picture {
+    width: 590px;
+    right: 10px;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  h2.header-text,
+  .about-title,
+  .tuto-title,
+  .features-title,
+  .tokenmics-title,
+  .socials-title,
+  .why-title,
+  .faq-title {
+    font-size: 65px;
+    font-weight: 700;
+  }
+
+  .container {
+    padding: 0px 50px;
+  }
+
+  .nav-item {
+    margin-left: 25px;
+  }
+
+  header .right-content img {
+    left: 45%;
+    width: 750px;
+  }
+
+  .right-about-content {
+    width: 450px;
+  }
+
+  .comment-text {
+    max-width: 600px;
+  }
+
+  .comment-text img {
+    max-width: 200px;
+    right: -200px;
+    bottom: -200px;
+  }
+
+  header .right-content img {
+    position: absolute;
+    left: 45%;
+    max-width: 600px;
+  }
+
+  .tuto .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .left-about-content img {
+    max-width: 400px;
+    margin-right: 40px;
+  }
+
+  .left-tuto-content img {
+    max-width: 600px;
+  }
+
+  .feature-card {
+    padding: 20px;
+    width: 27%;
+  }
+
+  .tokenmics__content {
+    width: 75%;
+  }
+
+  .socials-right-content {
+    width: 40%;
+  }
+
+  .socials-title {
+    font-size: 55px;
+    font-weight: 700;
+  }
+
+  .why {
+    margin-bottom: 200px;
+  }
+
+  .faq-header {
+    font-size: 30px;
+  }
+
+  footer .picture {
+    width: 400px;
+    right: -0px;
+  }
+
+  .footer-content {
+    width: 700px;
+  }
+
+  footer .container {
+    padding-top: 100px;
+  }
+
+  .footer-links {
+    margin-bottom: 62px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    padding: 0px 12.5px;
+  }
+
+  .nav-item {
+    margin-left: 15px;
+    font-size: 19px;
+  }
+
+  h2.header-text {
+    font-size: 62px;
+  }
+
+  p.header-text,
+  .header-btns,
+  .about-text {
+    font-size: 18px;
+  }
+
+  header .right-content img {
+    left: 35%;
+    width: 700px;
+  }
+
+  .right-about-content {
+    width: 500px;
+  }
+
+  .exchange-platform {
+    width: 180px;
+    height: 100px;
+    margin: 0 10px;
+  }
+
+  header .right-content img {
+    position: absolute;
+    left: 44%;
+    max-width: 500px;
+    top: 140px;
+  }
+
+  .exchanges .container {
+    padding-top: 300px;
+  }
+
+  .header-logo img {
+    width: 450px;
+  }
+
+  .comment-text img {
+    max-width: 150px;
+    right: -100px;
+    bottom: -150px;
+  }
+
+  .features-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .feature-card {
+    width: 35%;
+    margin: 0 20px 40px;
+  }
+
+  .tokenmics__content {
+    padding: 25px;
+  }
+
+  .tokenmics-element {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .tokenmics__content div,
+  #token-address div {
+    font-size: 20px;
+  }
+
+  .socials-left-content img {
+    width: 450px;
+  }
+
+  .why {
+    margin-bottom: 166px;
+  }
+
+  footer .picture {
+    width: 350px;
+  }
+
+  .footer-content {
+    width: 65%;
+  }
+
+  .footer-content img {
+    width: 180px;
+    margin-right: 35px;
+  }
+
+  footer .container {
+    padding-top: 50px;
+  }
+
+  .footer-links {
+    margin-bottom: 32px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-list {
+    display: none;
+  }
+
+  .exchanges .container {
+    flex-wrap: wrap;
+  }
+
+  .nav-brand {
+    margin: auto;
+  }
+
+  header .container {
+    padding-top: 150px;
+  }
+
+  header .right-content img {
+    display: none;
+  }
+
+  .left-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-btns {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .about .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .exchange-platform {
+    border: 2px solid #f8f6ff;
+    width: 200px;
+    height: 100px;
+    margin: 15px 15px;
+  }
+
+  .comment-text img {
+    display: none;
+  }
+
+  .comment {
+    margin-bottom: 268px;
+  }
+
+  .tuto .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .left-tuto-content img {
+    max-width: 400px;
+  }
+
+  .tuto-links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .feature-card {
+    width: 50%;
+  }
+
+  /* hena kltb */
+
+  #tax {
+    grid-area: 2 / 2 / 2 / 3;
+  }
+
+  .tokenmics-element-top {
+    flex-wrap: wrap;
+  }
+
+  .tokenmics__content {
+    padding: 20px;
+  }
+
+  .tokenmics-element {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .tokenmics__content div,
+  #token-address div {
+    font-size: 18px;
+    text-align: end;
+  }
+
+  #token-address div {
+    font-size: 14px;
+  }
+
+  .tokenmics .container::after {
+    z-index: -1;
+    content: "";
+    top: -300px;
+    border-radius: 1312.954px;
+    opacity: 0.26;
+    background: var(
+      --Linear,
+      linear-gradient(99deg, #2ee6a6 1.93%, #3e54c8 47.51%, #7b3ec8 96.04%)
+    );
+    position: absolute;
+    filter: blur(108.0999984741px);
+    width: 100px;
+    height: 600px;
+    transform: rotate(89.541deg);
+  }
+
+  .socials .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .socials-left-content {
+    width: 60%;
+  }
+
+  .socials-left-content img {
+    width: 100%;
+  }
+
+  .socials-right-content {
+    width: 72.5%;
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  .tokenmics,
+  .tuto,
+  .socials {
+    margin-bottom: 268px;
+  }
+
+  .why-content {
+    flex-wrap: wrap;
+    padding: 0 40px;
+  }
+
+  .why-section {
+    width: 40%;
+  }
+
+  #why-section-2,
+  #why-section-1 {
+    margin-top: 0px;
+  }
+  #why-section-3 {
+    margin-top: 50px;
+  }
+
+  .faq-header {
+    font-size: 26px;
+  }
+
+  footer .picture {
+    position: static;
+    margin: auto;
+  }
+
+  .footer-content {
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px auto 40px;
+  }
+
+  .footer-content img {
+    margin-bottom: 20px;
+  }
+
+  .footer-links {
+    margin: 0 auto 20px;
+  }
+
+  .footer-other div {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h2.header-text,
+  .about-title,
+  .tuto-title,
+  .features-title,
+  .tokenmics-title,
+  .socials-title,
+  .why-title,
+  .faq-title {
+    font-size: 60px;
+    font-weight: 700;
+  }
+
+  h2.header-text svg {
+    width: 85px;
+  }
+
+  .header-logo img {
+    width: 425px;
+    margin: auto;
+  }
+
+  .exchanges .container {
+    padding-top: 200px;
+  }
+
+  .left-about-content img {
+    width: 80%;
+    margin-bottom: 25px;
+  }
+
+  .right-about-content {
+    text-align: center;
+  }
+
+  .about-text {
+    font-size: 18px;
+  }
+
+  .feature-card {
+    width: 80%;
+  }
+
+  #lp {
+    grid-area: 1 / 3 / 4 / 4;
+  }
+
+  #tax {
+    grid-area: 2 / 1 / 2 / 3;
+  }
+
+  #symbol {
+    grid-area: 1 / 1 / 2 / 3;
+    margin-bottom: 15px;
+  }
+
+  #symbol .tokenmics__content {
+    margin: auto;
+  }
+
+  #address {
+    display: none;
+  }
+
+  .tokenmics-title img {
+    width: 110px;
+  }
+
+  .socials-title {
+    font-size: 40px;
+  }
+
+  .why-section {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  #why-section-3 {
+    margin-top: 0px;
+  }
+
+  .faq-header {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .exchange-platform {
+    width: 135px;
+    height: 80px;
+    margin: 10px 10px;
+  }
+
+  .left-tuto-content img {
+    max-width: 100%;
+}
+
+  .feature-card,
+  .why-section {
+    width: 90%;
+  }
+
+  .tokenmics-title img {
+    width: 80px;
+  }
+
+  .faq-header {
+    font-size: 20px;
+  }
+
+  h2.header-text,
+  .about-title,
+  .tuto-title,
+  .features-title,
+  .tokenmics-title,
+  .socials-title,
+  .why-title,
+  .faq-title {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .header-logo img {
+    width: 90%;
+  }
+}
+
+/* Animations */
+
+.hidden {
+  opacity: 0;
+  transform: scale(0);
+  filter: blur(5px);
+  transition: opacity 1s, filter 1s;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hidden {
+    transition: all 1s;
+  }
+}
+
+.show {
+  filter: blur(0);
+  opacity: 1;
+  animation: bounceIn 0.5s ease-out forwards; /* Bouncing animation on show */
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Hidden from different directions */
+.hidden-left {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 1s;
+}
+
+.hidden-right {
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all 1s;
+}
+
+.hidden-top {
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 1s;
+}
+
+.hidden-bottom {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: all 1s;
+}
+
+/* Show for different directions */
+.show-left {
+  transform: translateX(0);
+  opacity: 1;
+  filter: blur(0);
+}
+
+.show-right {
+  transform: translateX(0);
+  opacity: 1;
+  filter: blur(0);
+}
+
+.show-top {
+  transform: translateY(0);
+  opacity: 1;
+  filter: blur(0);
+}
+
+.show-bottom {
+  transform: translateY(0);
+  opacity: 1;
+  filter: blur(0);
+}
+
+.net1 {
+  transition-delay: 200ms;
+}
+.net2 {
+  transition-delay: 400ms;
+}
+.net3 {
+  transition-delay: 600ms;
+}
+.net4 {
+  transition-delay: 800ms;
+}
+.net5 {
+  transition-delay: 1000ms;
+}
+.net6 {
+  transition-delay: 1200ms;
+}
+
+.net7 {
+  transition-delay: 1400ms;
+}
