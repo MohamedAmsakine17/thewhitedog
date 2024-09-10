@@ -30,13 +30,22 @@ nav .container {
   border-radius: 20px;
 }
 
+.orange-text {
+  color: #fc7f00;
+}
+
 .outline-btn {
-  border: 3px solid #f8f6ff;
+  border: 3px solid #fc7f00;
   color: #f8f6ff;
   font-size: 22px;
   display: flex;
   align-items: center;
   width: fit-content;
+  cursor: pointer;
+}
+
+.outline-btn:hover {
+  color: #fc7f00;
 }
 
 .white-btn {
@@ -58,6 +67,10 @@ h2.header-text,
   font-weight: 700;
 }
 
+.left-about-content img {
+  width: 500px;
+}
+
 /* Nav */
 
 .nav-list {
@@ -72,6 +85,10 @@ h2.header-text,
 
 .nav-link {
   color: #f8f6ff;
+}
+
+.nav-link:hover {
+  color: #fc7f00;
 }
 
 /* Header */
@@ -114,6 +131,7 @@ header .right-content img {
   left: 50%;
   top: 55px;
   pointer-events: none;
+  width: 814px;
 }
 
 /* Exchange */
@@ -207,7 +225,7 @@ header .right-content img {
   max-width: 250px;
   width: 100%;
   height: 250px;
-  background: #30e9a1;
+  background: #f98711;
   opacity: 0.2;
   filter: blur(108.0999984741px);
   border-radius: 250px;
@@ -278,7 +296,7 @@ header .right-content img {
   width: 100%;
   border-radius: 702.76px;
   opacity: 0.2;
-  background: #2ebae6;
+  background: #f98711;
   filter: blur(108.0999984741px);
   z-index: -1;
 }
@@ -356,7 +374,7 @@ header .right-content img {
   opacity: 0.26;
   background: var(
     --Linear,
-    linear-gradient(99deg, #2ee6a6 1.93%, #3e54c8 47.51%, #7b3ec8 96.04%)
+    linear-gradient(99deg, #f98711 1.93%, #f92c11 47.51%, #f9ed11 96.04%)
   );
   position: absolute;
   filter: blur(108.0999984741px);
@@ -469,6 +487,10 @@ header .right-content img {
   margin-right: 10px;
 }
 
+.socials-left-content img {
+  width: 600px;
+}
+
 /* why */
 
 .why {
@@ -538,6 +560,10 @@ header .right-content img {
   cursor: pointer;
 }
 
+.left-tuto-content img {
+  width: 600px;
+}
+
 .faq-content {
   max-height: 0; /* Initially collapsed */
   overflow: hidden; /* Hides content that exceeds max-height */
@@ -589,7 +615,7 @@ footer::after {
   opacity: 0.26;
   background: var(
     --Linear,
-    linear-gradient(99deg, #2ee6a6 1.93%, #3e54c8 47.51%, #7b3ec8 96.04%)
+    linear-gradient(99deg, #f98711 1.93%, #f92c11 47.51%, #f9ed11 96.04%)
   );
   filter: blur(108.0999984741px);
   max-width: 1744.768px;
@@ -1195,7 +1221,7 @@ footer .picture {
 
   .left-tuto-content img {
     max-width: 100%;
-}
+  }
 
   .feature-card,
   .why-section {
