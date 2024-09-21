@@ -54,6 +54,7 @@ nav .container {
   background-color: white;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 h2.header-text,
@@ -682,7 +683,7 @@ footer .picture {
 
 .header-text {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   margin: 0;
 }
 
